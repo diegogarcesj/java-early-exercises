@@ -1,8 +1,6 @@
-import org.graalvm.compiler.nodes.CallTargetNode.InvokeKind;
-
 /**
  * Pide un número por teclado y lo muestra al revés.
- * 
+ *
  * @author Diego Garcés Jiménez
  */
 
@@ -17,7 +15,7 @@ import org.graalvm.compiler.nodes.CallTargetNode.InvokeKind;
          while (num != 0) {
             dig = num % 10;
             num = num / 10;
-            inv = inv * 10 + dig; 
+            inv = inv * 10 + dig;
          }
 
          System.out.println("El número al revés es " + inv);
